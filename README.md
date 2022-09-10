@@ -1,21 +1,21 @@
-# ApeSwap UIkit
+# FlareSwap UIkit
 
 
-ApeSwap UIkit is a set of React components and hooks used to build pages on ApeSwap's apps. It also contains a theme file for dark and light mode.
+FlareSwap UIkit is a set of React components and hooks used to build pages on FlareSwap's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
-`yarn add @apeswapfinance/uikit`
+`yarn add @Flareswap/uikit`
 
 ## Setup
 
 ### Theme
 
-Before using ApeSwap UIkit, you need to provide the theme file to styled-component.
+Before using FlareSwap UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@apeswapfinance/uikit'
+import { light, dark } from '@Flareswap/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -25,7 +25,7 @@ import { light, dark } from '@apeswapfinance/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@apeswapfinance/uikit'
+import { ResetCSS } from '@Flareswap/uikit'
 ...
 <ResetCSS />
 ```
